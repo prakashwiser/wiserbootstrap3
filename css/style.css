@@ -2,6 +2,9 @@
   font-family: "Figtree";
   src: url(../assets/font/Figtree/static/Figtree-Regular.ttf);
 }
+* {
+  scroll-behavior: smooth;
+}
 :root {
   --bgcolor: #160c1c;
   --bannercolor: #392447;
