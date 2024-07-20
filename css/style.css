@@ -104,6 +104,9 @@ body {
 .started {
   background-color: #9455be;
 }
+.started:hover {
+  color: black;
+}
 .gmail {
   transform: rotate(90deg);
   right: -40px;
@@ -164,6 +167,9 @@ li {
   to {
     --num: 125;
   }
+}
+.hover:hover{
+ color: red !important;
 }
 .number,
 .numbers,
@@ -291,6 +297,7 @@ body {
 }
 a:hover {
   color: var(--brandcolor) !important;
+  color: black !important;
 }
 .underline {
   border-top: 1px solid white;
@@ -360,23 +367,23 @@ input.py-1.ps-3:active {
   height: 70px !important;
   width: 100px !important;
 }
-.progress .BRANDING{
+.progress .BRANDING {
   width: 75%;
-  animation: Mymove 5s infinite; 
+  animation: Mymove 5s infinite;
 }
 .progress .digital {
   width: 90%;
   animation: mymove 5s infinite;
 }
-.progress .DESIGN{
+.progress .DESIGN {
   width: 85%;
   animation: Thismove 5s infinite;
 }
-.progress .APPS{
+.progress .APPS {
   width: 85%;
   animation: appmove 5s infinite;
 }
-.progress .MOBILE{
+.progress .MOBILE {
   width: 65%;
   animation: mobilemove 5s infinite;
 }
