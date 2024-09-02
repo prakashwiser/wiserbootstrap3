@@ -155,6 +155,9 @@ body {
 li {
   list-style: none !important;
 }
+.footer a:hover{
+color: white !important;
+}
 @property --num {
   syntax: "<integer>";
   initial-value: 0;
