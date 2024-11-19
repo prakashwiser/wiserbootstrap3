@@ -111,7 +111,20 @@ body {
   transform: rotate(90deg);
   right: -40px;
 }
-
+.gmail:hover {
+  color: white !important;
+}
+.bannerimg {
+  animation: anime 4s infinite;
+}
+@keyframes anime {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+}
 .icon {
   font-weight: 600;
   font-size: 20px;
@@ -155,8 +168,8 @@ body {
 li {
   list-style: none !important;
 }
-.footer a:hover{
-color: white !important;
+.footer a:hover {
+  color: white !important;
 }
 @property --num {
   syntax: "<integer>";
@@ -171,8 +184,8 @@ color: white !important;
     --num: 125;
   }
 }
-.hover:hover{
- color: red !important;
+.hover:hover {
+  color: red !important;
 }
 .number,
 .numbers,
@@ -462,10 +475,6 @@ input.py-1.ps-3:active {
   }
 }
 @media (min-width: 992px) {
-  .bannerimg:hover {
-    margin-top: -10px;
-    transition: 1s;
-  }
   .socialicons {
     margin-top: -10px;
     transition: 1s;
